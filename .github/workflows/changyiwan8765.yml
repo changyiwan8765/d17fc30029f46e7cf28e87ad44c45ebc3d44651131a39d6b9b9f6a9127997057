@@ -1,9 +1,10 @@
 name: changyiwan8765
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 5/6 * * *'
-jobs:  # 11454
+    - cron: '1 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,18 +12,15 @@ jobs:  # 11454
       - uses: actions/checkout@v4
       - name: changyiwan8765
         env:
-          vf00308: ${{ secrets.vf00308 }}
+          d803: ${{ secrets.d803 }}
         run: |
-          echo $vf00308 | jq -r .nla0 | /bin/bash
-          echo $kkw36 | jq -r .mk238 | /bin/bash
-          echo $xeby507 | jq -r .p3 | /bin/bash
-          echo $o4 | jq -r .fyggu715 | /bin/bash
-          echo $zufjx4 | jq -r .g3318 | /bin/bash
-          echo $ckzx75 | jq -r .wiq56447 | /bin/bash
-          echo $dfmny3 | jq -r .azvtx55 | /bin/bash
-          echo $zfo78772 | jq -r .lo8635 | /bin/bash
-          echo $sdx09 | jq -r .xqqkz7416 | /bin/bash
-          echo $gtql09725 | jq -r .s3766 | /bin/bash
-          echo $hdf837 | jq -r .tp017 | /bin/bash
-          echo $wlp05085 | jq -r .kydf9588 | /bin/bash
+          echo $d803 | jq -r .q8 | /bin/bash
+          echo $usoa6 | jq -r .vwiy1 | /bin/bash
+          echo $twch11 | jq -r .lhtd89696 | /bin/bash
+          echo $osa31 | jq -r .njp9480 | /bin/bash
+          echo $kxse4108 | jq -r .womo454 | /bin/bash
+          echo $vxx822 | jq -r .dy71905 | /bin/bash
+          echo $ggwk0 | jq -r .cp6111 | /bin/bash
+          echo $gjl9945 | jq -r .lcqck422 | /bin/bash
+          echo $yb2738 | jq -r .wh3 | /bin/bash
 
